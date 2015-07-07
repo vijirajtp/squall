@@ -28,6 +28,9 @@ module Squall
   autoload :NetworkZone,    'squall/network_zone'
   autoload :HypervisorZone, 'squall/hypervisor_zone'
   autoload :Disk,           'squall/disk'
+  autoload :Recipe,         'squall/recipe'
+  autoload :RecipeStep,     'squall/recipe_step'
+  autoload :RecipeJoin,     'squall/recipe_join'
 
   extend self
 
